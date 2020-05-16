@@ -4,7 +4,7 @@ int main()
 {
   float fahr, celsius;
   int lower, upper, step;
-  char heading[];
+  char heading[20];
 
   lower = 0;      /* lower limit of temperature table */
   upper = 300;    /* upper limit */
