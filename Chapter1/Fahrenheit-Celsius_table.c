@@ -4,12 +4,12 @@ int main()
 {
   float fahr, celsius;
   int lower, upper, step;
-  char heading[20];
+
 
   lower = 0;      /* lower limit of temperature table */
   upper = 300;    /* upper limit */
   step = 20;      /* step size */
-  heading = "Fahrenheit-Celsius_table";
+  char heading[] = "Fahrenheit-Celsius_table";
 
   printf("%s\n", heading);
   fahr = lower;
