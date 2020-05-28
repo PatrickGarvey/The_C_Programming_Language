@@ -22,14 +22,14 @@ int main()
   state = OUT;
   nl = nw = nc = 0;
   while ((c = getchar()) != EOF){
-    ++nc;
+    ++nc;  // number of  characters
     if (c == '\n')
-      ++nl;
+      ++nl;  // number of new lines
     if (c == ' ' || c == '\n' || c == '\t')
       state = OUT;
     else if (state == OUT) {
       state = IN;
-      ++nw;
+      ++nw;  // number of words
     }
   }
   printf("%d %d %d\n", nl, nw, nc);
