@@ -5,7 +5,8 @@ int mygetline(char line[], int maxline);
 void copy(char to[], char from[]);
 void reverse_copy(char to[], char from[], int len);
 
-/* print longest input line */
+/* Write a fucntion reverse(s) that reverses the character string s. Use it
+    to write a program that reverses its input a line at a time.*/
 int main()
 {
   int len;
