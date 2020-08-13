@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+// ein Kommentar
+
+/* ein laengeres Kommentar /*
+ueber
+viele
+Zeilen */
+
+int main(){
+
+  printf("test");
+  printf("//sowasgeht");
+  printf("/*undsowas");
+  printf('/'); // character constant
+
+// \n test
+// noch eins
+}
