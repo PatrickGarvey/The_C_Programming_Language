@@ -4,7 +4,7 @@ int main(void)
 {
 
   int test = 28/15;
-  printf("%d", test);
+  printf("%d%d", test, test);
 
 
 
